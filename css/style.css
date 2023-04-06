@@ -1,0 +1,139 @@
+body{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.d-none{
+    display: none;
+}
+
+header .logo{
+    width: 145px;
+    height: 85px;
+    margin: 50px auto;
+}
+
+.page-title{
+    background-color: #A63737;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* 자간 : 각자 조정*/
+
+}
+
+.login, .check-field{
+    max-width: 600px;
+    margin: 50px auto;
+    border: 1px solid #666;
+    padding: 30px;
+}
+
+.login h2, .check-field h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#order_num{
+    width: 85%;
+    padding: 15px 0;
+    margin: 10px 0;
+}
+#guk_num, #mid_num, #last_num{
+    padding: 15px 0;
+    margin: 10px 0;
+}
+
+#guk_num{
+    width: 22%;
+}
+
+#mid_num{
+    width: 28%;
+}
+
+#last_num{
+    width: 28%;
+}
+
+[for=order_num], [for=guk_num]{
+    background-color: rgb(240, 162, 84);
+    display: inline-block;
+    width: 11%;
+    margin-right: 2%;
+}
+#u_id, [type=password], [type=submit], .login button{
+    width: 100%;
+    padding: 15px 0;
+    margin: 10px 0;
+}
+[type=submit]{
+    background-color:#A63737;
+    color: white;
+    border: 0;
+    font-size:15px;
+}
+[type=button]{
+    background-color: rgb(171, 153, 120);
+    color:white;
+    border: 0;
+    font-size:15px;
+
+}
+.contact{
+    text-align: center;
+    color: #d8724e;
+    font-size: 40px;
+    margin: 20px 0;
+}
+.address{
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 10px;
+}
+.owner{
+    font-size: 12px;
+    color: #999;
+}
+
+.site-info{
+    text-align: center;
+}
+
+#u_id, #u_pw{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    text-indent: 1rem;
+}
+
+.screen_out {
+    position: absolute;
+    left: -100%;
+    width: 0;
+    height: 0;
+}
+.link{
+    border-top:1px solid #999;
+    border-bottom:1px solid #999;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.link li{
+    display: inline-block;
+}
+.link a{
+    color:#999;
+    text-decoration: none; 
+    font-size: 14px;
+    padding: 0 20px; 
+}
+
+
+.f-logo{
+    width: 140px;
+    height: 85px;
+    margin: 10px auto;
+}
